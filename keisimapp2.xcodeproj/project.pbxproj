@@ -13,6 +13,7 @@
 		F7C52A3A1B5944C500C5F35E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C52A391B5944C500C5F35E /* Images.xcassets */; };
 		F7C52A3D1B5944C500C5F35E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C52A3B1B5944C500C5F35E /* LaunchScreen.xib */; };
 		F7C52A491B5944C500C5F35E /* keisimapp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C52A481B5944C500C5F35E /* keisimapp2Tests.swift */; };
+		F7C52A531B59481F00C5F35E /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C52A521B59481F00C5F35E /* nextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F7C52A421B5944C500C5F35E /* keisimapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keisimapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C52A471B5944C500C5F35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7C52A481B5944C500C5F35E /* keisimapp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keisimapp2Tests.swift; sourceTree = "<group>"; };
+		F7C52A521B59481F00C5F35E /* nextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F7C52A321B5944C500C5F35E /* AppDelegate.swift */,
 				F7C52A341B5944C500C5F35E /* ViewController.swift */,
+				F7C52A521B59481F00C5F35E /* nextViewController.swift */,
 				F7C52A361B5944C500C5F35E /* Main.storyboard */,
 				F7C52A391B5944C500C5F35E /* Images.xcassets */,
 				F7C52A3B1B5944C500C5F35E /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C52A531B59481F00C5F35E /* nextViewController.swift in Sources */,
 				F7C52A351B5944C500C5F35E /* ViewController.swift in Sources */,
 				F7C52A331B5944C500C5F35E /* AppDelegate.swift in Sources */,
 			);
